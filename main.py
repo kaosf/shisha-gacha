@@ -23,7 +23,7 @@ def load_blocklist(block_file):
     with open(block_file, encoding = "utf-8") as file:
         blocklist = json.load(file)
     return blocklist
-block = load_blocklist('/content/shisha_date/blocklist.json')
+block = load_blocklist('./blocklist.json')
 
 
 def check_exclution(tag, blocklist):
@@ -33,9 +33,9 @@ def check_exclution(tag, blocklist):
                 return True
     return False
 
-flavors = load_flavors('/content/shisha_date/shisha_info.json')
-tag = load_tags('/content/shisha_date/shisha_info.json')
-blocklist = load_blocklist('/content/shisha_date/blocklist.json')
+flavors = load_flavors('./shisha_info.json')
+tag = load_tags('./shisha_info.json')
+blocklist = load_blocklist('./blocklist.json')
 
 
 num_draw = 4
