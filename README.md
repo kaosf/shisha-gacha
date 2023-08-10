@@ -32,4 +32,4 @@ Output example:
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (C) 2023 あねじ
+Copyright (C) 2023 あねぴ
